@@ -1,0 +1,29 @@
+    return(
+      <SafeAreaProvider>
+        <SafeAreaView>
+          <StatusBar barStyle={'auto'}/>
+          <View style={styles.container}>
+            <Text style={styles.texto}>OLA MUNDO</Text>
+          </View>
+        </SafeAreaView>
+      </SafeAreaProvider>
+
+    );
+
+}
+const styles = StyleSheet.create({
+  container:{
+    height: '100%',
+    backgroundColor:'purple',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+  },
+
+  texto:{
+    color: 'pink',
+    fontWeight: '900'
+   
+
+  },
+})
