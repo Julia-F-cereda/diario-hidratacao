@@ -37,15 +37,15 @@ const styles =  StyleSheet.create({
         color: COLORS.primary,
     },
     percentageText:{
-        fontSize: 36,
+        fontSize: 14,
         color: COLORS.textMuted,
         marginBottom: 16,
     },
 
     progressBarBackground: {
         width: '100%',
-        height: 25,
-        backgroundColor: '#000000',
+        height: 12,
+        backgroundColor: '#E0F2FE',
         borderRadius: 6,
         overflow: 'hidden',
     },
